@@ -15,7 +15,6 @@ body {
     gap: 30%;
 }
 
-{
 #titulo {
     margin: 0; 
 
@@ -36,8 +35,6 @@ p {
     border-radius: 10px;  
     margin-top: 20px;     
     margin-bottom: 20px;  
-}
-
 }
 
 nav{
