@@ -1,75 +1,53 @@
-body { 
-    background-color: ;
+body {
+  font-family: Arial, sans-serif; 
+  background-color: #f0f2f5; 
+  color: #333; 
 }
 
-.cabecalho{
-    background-color: black;
-    color: whitesmoke;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 25px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30%;
+
+.cabecalho {
+  background-color: #4a148c; 
+  color: #ffffff;
+  padding: 25px 0; 
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
 }
+
 
 #titulo {
-    margin: 0; 
-
-
-}
-
-p {
-    padding-left: 20px;   
-    padding-right: 20px;  
-    
-}
-
-.imgcentro {
-    display: block;        
-    margin-left: auto;     
-    margin-right: auto;    
-    width: 300px;          
-    border-radius: 10px;  
-    margin-top: 20px;     
-    margin-bottom: 20px;  
+  font-size: 40px; 
+  font-weight: bold;
+  margin: 0; 
+  padding-bottom: 15px; 
 }
 
 
-nav{
-
+.menu ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  justify-content: center; 
 }
 
-li{
-    display: inline-block;
-   
-
+.menu li {
+  margin: 0 20px;
 }
 
-li a{
-    font-size: 50px;
 
+.menu a {
+  color: #ffffff; 
+  text-decoration: none; 
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; 
 }
 
-button{
-    font-size: 16px;
-    color: rgb(255, 0, 132);
-
+.menu a:hover {
+  background-color: #7b1fa2; 
 }
-
-footer{
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-   text-align:center ;
-   background-color: azure;
-   position: fixed;
-   bottom: 0;
-   width:100 ;
-   font-size: 15px;
-   line-height: 1.5;
 
     
     
